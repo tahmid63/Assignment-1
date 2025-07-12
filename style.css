@@ -1,0 +1,456 @@
+* {
+      margin: 0;
+      padding: 0;
+    }
+
+   
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 50px;
+    }
+
+    .logo {
+      font-size: 26px;
+      font-weight: bold;
+      color: #5a4dff;
+    }
+
+    .signup-btn {
+      background: #5a4dff;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+      align-items: center;
+      padding: 0 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #222;
+    }
+
+    .main-btn {
+      background: #5a4dff;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 500;
+      transition: background 0.3s;
+      cursor: pointer;
+    }
+
+    .main-btn:hover,
+    .signup-btn:hover {
+      background: #4a3de0;
+    }
+
+
+       body {
+  background: #f6f8fc;
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.section-content {
+  display: flex;
+  background: none;
+  padding: 40px 0;
+  gap: 60px;
+}
+
+.section-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 350px;
+}
+
+.section-text h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #22223b;
+  margin-bottom: 10px;
+}
+
+.section-text p {
+  font-size: 1.1rem;
+  color: #6c6c80;
+  margin-bottom: 24px;
+}
+
+.preview-btn {
+  background: #4f46e5;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.preview-btn:hover {
+  background: #3730a3;
+}
+
+.section-image img {
+  width: 320px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 32px;
+  box-shadow: 0 4px 24px rgba(60, 60, 90, 0.08);
+  background: #22223b;
+}
+    body {
+  background: #f8faff;
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.stats-container {
+  background: #ecebfc;
+  border-radius: 20px;
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 40px 20px 32px 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.stats-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #22223b;
+  margin-bottom: 32px;
+}
+
+.stats-row {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.stats-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stats-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #4f46e5;
+  margin-bottom: 8px;
+  letter-spacing: -1px;
+}
+
+.stats-label {
+  font-size: 1rem;
+  color: #6c6c80;
+  font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .stats-row {
+    flex-direction: column;
+    gap: 28px;
+  }
+  .stats-container {
+    padding: 28px 10px 20px 10px;
+  }
+  .stats-title {
+    font-size: 1.1rem;
+  }
+  .stats-value {
+    font-size: 1.6rem;
+  }
+}
+      body {
+            background: #f6f8fc;
+            font-family: 'Inter', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .testimonials-section {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 60px 16px 40px 16px;
+            text-align: center;
+        }
+
+        .testimonials-title {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #22223b;
+            margin-bottom: 40px;
+        }
+
+        .testimonials-cards {
+            display: flex;
+            flex-direction: row;
+            gap: 24px;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: nowrap;
+            /* Prevents wrapping so cards stay side by side */
+        }
+
+        .testimonial-card {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 2px 12px rgba(60, 60, 90, 0.06);
+            padding: 32px 24px 24px 24px;
+            width: 320px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            transition: box-shadow 0.2s;
+        }
+
+        .testimonial-card:hover {
+            box-shadow: 0 4px 24px rgba(60, 60, 90, 0.10);
+        }
+
+        .testimonial-stars {
+            color: #fbbf24;
+            font-size: 1.2rem;
+            margin-bottom: 18px;
+        }
+
+        .testimonial-content {
+            margin-bottom: 28px;
+        }
+
+        .testimonial-heading {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: #22223b;
+            margin-bottom: 6px;
+        }
+
+        .testimonial-text {
+            font-size: 1rem;
+            color: #6c6c80;
+            line-height: 1.5;
+        }
+
+        .testimonial-footer {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-top: auto;
+        }
+
+        .testimonial-avatar {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #ecebfc;
+        }
+
+        .testimonial-reviewer {
+            font-size: 0.98rem;
+            font-weight: 500;
+            color: #22223b;
+        }
+
+        .testimonial-date {
+            font-size: 0.9rem;
+            color: #b0b0c3;
+        }
+
+        /* Responsive: stack cards vertically on small screens */
+        @media (max-width: 1000px) {
+            .testimonials-cards {
+                flex-direction: column;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+
+            .testimonial-card {
+                width: 90%;
+                max-width: 400px;
+                margin-bottom: 20px;
+            }
+        }
+           body {
+  background: #fff;
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.focus-section {
+  max-width: 700px;
+  margin: 60px auto 0 auto;
+  text-align: center;
+}
+
+.focus-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #22223b;
+  margin-bottom: 16px;
+}
+
+.focus-subtitle {
+  font-size: 1.08rem;
+  color: #6c6c80;
+  margin-bottom: 28px;
+}
+
+.focus-btn {
+  background: #4f46e5;
+  color: #fff;
+  border: none;
+  padding: 14px 36px;
+  border-radius: 8px;
+  font-size: 1.08rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 44px;
+  transition: background 0.2s;
+}
+
+.focus-btn:hover {
+  background: #3730a3;
+}
+
+.focus-card-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.card-img {
+  width: 100%;
+  max-width: 650px;
+  border-radius: 40px;
+  box-shadow: 0 4px 32px rgba(60, 60, 90, 0.12);
+  object-fit: cover;
+}
+
+ body {
+  background: #f7f9fc;
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 36px;
+  padding: 0 16px;
+}
+
+.contact-heading h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #22223b;
+  margin: 0;
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  max-width: 350px;
+  background: none;
+}
+
+.contact-form label {
+  font-size: 1rem;
+  color: #22223b;
+  font-weight: 500;
+  margin-bottom: 6px;
+  margin-top: 18px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 13px 15px;
+  border: 1px solid #e0e7ef;
+  border-radius: 7px;
+  font-size: 1rem;
+  background: #fff;
+  margin-bottom: 2px;
+  outline: none;
+  transition: border 0.2s;
+  box-sizing: border-box;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #4f46e5;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 90px;
+}
+
+.contact-form button {
+  margin-top: 24px;
+  background: #4f46e5;
+  color: #fff;
+  border: none;
+  padding: 14px 0;
+  border-radius: 8px;
+  font-size: 1.08rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.contact-form button:hover {
+  background: #3730a3;
+}
+
+@media (max-width: 900px) {
+  .contact-wrapper {
+    flex-direction: column;
+    gap: 28px;
+    padding: 32px 8px;
+  }
+  .contact-heading h1 {
+    font-size: 2.2rem;
+  }
+  .contact-form {
+    min-width: unset;
+    max-width: 100%;
+  }
+}
